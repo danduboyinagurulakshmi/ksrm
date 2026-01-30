@@ -1,11 +1,11 @@
 .Awards-clg ul {
-  max-width: 400px;        /* limit width *//* push list to LEFT */
-  padding-left: 500px;     /* space for bullets */
-  text-align: center;       /* left-align text */
-  list-style-type: disc; /* normal bullets */
+  max-width: 400px;        
+  padding-left: 500px;     
+  text-align: center;       
+  list-style-type: disc; 
 }
 .footer-clg {
-  width: 98%;                 /* full width */
+  width: 98%;                 
   background-color: #1f2a44;
   color: #ffffff;
   text-align: center;

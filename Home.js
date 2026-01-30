@@ -5,7 +5,7 @@ function Home() {
   return (
     <>
     <Navbar/>
-      <section className="home">
+    
         <div className="image-content">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaYlrQ06-Lk4QUyvwAa2vzSQCJQUjbTS9NAQ&s" alt="ksrm" />
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_qeLRlXpZHCwNAifQqvVIv-wK7f_8okFRyQ&s" alt="ksrm1"/>
@@ -41,6 +41,25 @@ function Home() {
                 <li>Samaja Seva</li>
                 <li>Merit Awards</li>
             </ul>
+            <h1>Events</h1>
+            
+                <h3>Technical Fests & Workshops</h3>
+                <div className="image-content">
+                    <img src="https://www.knowafest.com/files/uploads/innovatex2k25-2025092912.jpg"/>
+                </div>
+                <h3>Cultural & Student Activities</h3>
+                <div className="image-content">
+                    <img src="https://i.ytimg.com/vi/VM9XWwNbmtE/maxresdefault.jpg"/>
+                </div>
+                <h3>Academic & Professional</h3>
+                <div className="image-content">
+                    <img src="https://ksrmce.ac.in/data1/images/s14.jpg"/>
+                </div>
+                <h3>Sports & NSS</h3>
+                <div className="image-content">
+                    <img src="https://ksrce.ac.in/admin/file_manager/source/Facilities/Sports/sports%203.jpg"/>
+                </div>
+            
         </div>
          <div className="footer-clg1">
             <footer>
@@ -49,7 +68,7 @@ function Home() {
 
         </div>
        
-      </section>
+    
     </>
   );
 }
